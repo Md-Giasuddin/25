@@ -1,0 +1,158 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-size: 14px;
+    color: #C7C9CA;
+    line-height: 1.8;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.section-title span {
+    background: #6AAF08;
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.section-title span.black-border {
+    background: #333;
+    display: inline-block;
+    width: 30px;
+}
+
+.feature-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+.feature-img:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: -7px;
+    bottom: -7px;
+    background: #6AAF08;
+    z-index: -1;
+}
+
+.bg-1 {
+    background-image: url(../img/image-42.jpg);
+}
+
+.bg-2 {
+    background-image: url(../img/image-8-254x300-1.jpg);
+}
+
+.single-feature-item {
+    margin: 30px;
+}
+
+.single-feature-item h3 {
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 15px;
+}
+
+.single-feature-item p {
+    font-weight: 500;
+    color: #565;
+}
+
+.feature-big-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 40px 0 50px 30px;
+    position: relative;
+    border: 1px solid #fff;;
+}
+
+.big-bg {
+    background-image: url(../img/team.jpg);
+}
+
+
+.feature-big-img:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #333;
+    opacity: .4;
+}
+
+.feature-big-img:after{
+    position: absolute;
+    content: '';
+    left: -8px;
+    bottom: -8px;
+    height: 100%;
+    width: 100%;
+    background: #6AAF08;
+    z-index: -1;
+}
+
